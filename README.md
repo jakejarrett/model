@@ -4,7 +4,9 @@
 * **Easy to use** Simply call getters & setters 
 
 ## Notice
-Be aware, this project does not compile to ES5 *(currently)*.
+Be aware, this project is only written for ES6+ clients at the moment.
+
+For a list of supported browsers, check the [mdn browser compatability list](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes#Browser_compatibility) for ES6 classes
 
 If you require any eventing etc, you can extend the class & bake in your own events, or try out another model system ([backbone-model](https://www.npmjs.com/package/backbone-model) is avaliable as a standalone module on npm)
 
