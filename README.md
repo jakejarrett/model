@@ -42,9 +42,10 @@ The `get` function takes a **string** parameter.
 It returns either `undefined` if the value could not be found, or the value you stored under that key.
 
 ```js
-// Correct
-MyModel.get('hello')
+MyModel.set('hello', 'world')
 
+// Returns 'world'
+MyModel.get('hello')
 ```
 
 ### set
