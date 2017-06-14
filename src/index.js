@@ -30,7 +30,7 @@ export class Model {
     /**
      * Set a value in the attributes object
      * 
-     * @param {*} key The key to use when we lookup this value
+     * @param {string} key The key to use when we lookup this value
      * @param {*} value The value we return when we try to get this value
      * @returns {void} Nothing
      */
