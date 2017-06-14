@@ -13,7 +13,7 @@ If you require any eventing etc, you can extend the class & bake in your own eve
 ### ES6
 ```js
 // Import the dependency
-import Model from "@jakejarrett/model";
+import Model from '@jakejarrett/model';
 
 // Initialize the model with some values
 const MyModel = new Model({ username: 'jake', id: 0 });
